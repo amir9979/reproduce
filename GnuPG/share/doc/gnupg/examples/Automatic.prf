@@ -1,0 +1,7 @@
+# Automatic.prf - Configure options for a more automatic mode           -*- conf -*-
+
+[gpg]
+auto-key-locate local,wkd,dane
+auto-key-retrieve
+trust-model tofu+pgp
+
